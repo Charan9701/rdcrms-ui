@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Sidebar styling */
+.sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: rgb(1, 38, 69);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  font-family: Arial, sans-serif;
+  margin-top: 7.5px;
+}
+
+/* Links in the sidebar */
+.sidebar a {
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border-bottom: 1px solid #444;
+}
+
+/* Dropdown container */
+.dropdown {
+  overflow: hidden;
+}
+
+/* Style for dropdown content */
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  background-color: #444;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* Hover effect */
+.sidebar a:hover {
+  background-color: #555;
+}
